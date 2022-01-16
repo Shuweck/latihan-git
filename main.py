@@ -1,3 +1,5 @@
+from tools import print_sesuatu
+
 if __name__ == '__main__':
-    nama = input('what is your name: ')
-    print('welcome to my app ' + nama)
+    string_nama = input('what is your name: ')
+    print_sesuatu(string_nama)
